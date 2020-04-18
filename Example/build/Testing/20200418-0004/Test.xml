@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20200418-0004-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.15.5"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Mac OS X"
+	Hostname="Aravindhs-MacBook-Pro.local"
+	OSRelease="10.15.4"
+	OSVersion="19E287"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="2048"
+	TotalPhysicalMemory="8192"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2300"
+	>
+	<Testing>
+		<StartDateTime>Apr 17 19:14 PDT</StartDateTime>
+		<StartTestTime>1587176057</StartTestTime>
+		<TestList>
+			<Test>./test/BankTests</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>BankTests</Name>
+			<Path>./test</Path>
+			<FullName>./test/BankTests</FullName>
+			<FullCommandLine>/Users/aravindh/C++_Coding/Example/build/test/BankTests</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.280443</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/aravindh/C++_Coding/Example/build/test/BankTests</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy9Uk1vwjAMvedX+AhitEzbLpV2YFDQpG2a+NilQsikpouWJlWSAj9/LS2ITprUcZhPjv3yXp7jWa6UUAmkKFSnC1ujU/CXloz10eBOqPjTH/V665GOC5gfHjDNJPmJ1okkR9ZdptZwPymzdUnncc6ix3OsYFZr3UKJqbTq3ObCkcei/jlWMJV6g7Lqk9oJo1VKqsCS6+fZD/AlZ/3IRVGwLILZ8g2OsWp0vDGlWlln0NG0rLwiN9qyFu6PZp9QfVVEPMuCuwAmKGRuiH2gzAn0NoAtSksMYMhdjvJ0Dg8ZcUdxAM7kdKXe/T/rPVytFwFMhs8v4bjlB0BnAKnttvveCgxOO5Rd1m5/HKHpx3qvmtv521aCQeU1dQpL78P5vLI0OGKt1zRaMdyAFLYYBWxI6n3w51kwVhDVNxbhfMG+ATxoNy0=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Apr 17 19:14 PDT</EndDateTime>
+		<EndTestTime>1587176057</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
