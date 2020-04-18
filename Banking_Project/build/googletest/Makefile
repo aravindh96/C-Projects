@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.15.5/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aravindh/C++_Coding/Example
+CMAKE_SOURCE_DIR = /Users/aravindh/C++_Coding/Banking_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aravindh/C++_Coding/Example/build
+CMAKE_BINARY_DIR = /Users/aravindh/C++_Coding/Banking_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/aravindh/C++_Coding/Example/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aravindh/C++_Coding/Example/build/CMakeFiles /Users/aravindh/C++_Coding/Example/build/googletest/CMakeFiles/progress.marks
-	cd /Users/aravindh/C++_Coding/Example/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aravindh/C++_Coding/Example/build/CMakeFiles 0
+	cd /Users/aravindh/C++_Coding/Banking_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aravindh/C++_Coding/Banking_Project/build/CMakeFiles /Users/aravindh/C++_Coding/Banking_Project/build/googletest/CMakeFiles/progress.marks
+	cd /Users/aravindh/C++_Coding/Banking_Project/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aravindh/C++_Coding/Banking_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/aravindh/C++_Coding/Example/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/clean
+	cd /Users/aravindh/C++_Coding/Banking_Project/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/aravindh/C++_Coding/Example/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/preinstall
+	cd /Users/aravindh/C++_Coding/Banking_Project/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/aravindh/C++_Coding/Example/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/preinstall
+	cd /Users/aravindh/C++_Coding/Banking_Project/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/aravindh/C++_Coding/Example/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/aravindh/C++_Coding/Banking_Project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/aravindh/C++_Coding/Example/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/aravindh/C++_Coding/Banking_Project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/aravindh/C++_Coding/Example/test
+# Install script for directory: /Users/aravindh/C++_Coding/Banking_Project/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/aravindh/C++_Coding/Example/googletest
+# Install script for directory: /Users/aravindh/C++_Coding/Banking_Project/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/aravindh/C++_Coding/Example/build/googletest/googlemock/cmake_install.cmake")
+  include("/Users/aravindh/C++_Coding/Banking_Project/build/googletest/googlemock/cmake_install.cmake")
 
 endif()
 

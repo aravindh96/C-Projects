@@ -23,7 +23,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/aravindh/C++_Coding/Example/build"
+			"value" : "/Users/aravindh/C++_Coding/Banking_Project/build"
 		},
 		{
 			"name" : "Banking_main_SOURCE_DIR",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/aravindh/C++_Coding/Example"
+			"value" : "/Users/aravindh/C++_Coding/Banking_Project"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -75,7 +75,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/aravindh/C++_Coding/Example/build"
+			"value" : "/Users/aravindh/C++_Coding/Banking_Project/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -179,7 +179,39 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/clang++"
+			"value" : "/usr/local/bin/g++-9"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/local/bin/gcc-ar-9"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/local/bin/gcc-ranlib-9"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -275,7 +307,39 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/clang"
+			"value" : "/usr/local/bin/gcc-9"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/local/bin/gcc-ar-9"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/local/bin/gcc-ranlib-9"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -571,7 +635,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/aravindh/C++_Coding/Example"
+			"value" : "/Users/aravindh/C++_Coding/Banking_Project"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1438,30 +1502,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Example_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/aravindh/C++_Coding/Example/build"
-		},
-		{
-			"name" : "Example_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/aravindh/C++_Coding/Example"
-		},
-		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp",
 			"properties" : 
 			[
@@ -1535,7 +1575,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/aravindh/C++_Coding/Example/build/googletest/googletest/generated"
+			"value" : "/Users/aravindh/C++_Coding/Banking_Project/build/googletest/googletest/generated"
 		},
 		{
 			"name" : "gmock_BINARY_DIR",
@@ -1547,7 +1587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/aravindh/C++_Coding/Example/build/googletest/googlemock"
+			"value" : "/Users/aravindh/C++_Coding/Banking_Project/build/googletest/googlemock"
 		},
 		{
 			"name" : "gmock_LIB_DEPENDS",
@@ -1571,7 +1611,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/aravindh/C++_Coding/Example/googletest/googlemock"
+			"value" : "/Users/aravindh/C++_Coding/Banking_Project/googletest/googlemock"
 		},
 		{
 			"name" : "gmock_build_tests",
@@ -1611,7 +1651,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/aravindh/C++_Coding/Example/build/googletest"
+			"value" : "/Users/aravindh/C++_Coding/Banking_Project/build/googletest"
 		},
 		{
 			"name" : "googletest-distribution_SOURCE_DIR",
@@ -1623,7 +1663,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/aravindh/C++_Coding/Example/googletest"
+			"value" : "/Users/aravindh/C++_Coding/Banking_Project/googletest"
 		},
 		{
 			"name" : "gtest_BINARY_DIR",
@@ -1635,7 +1675,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/aravindh/C++_Coding/Example/build/googletest/googletest"
+			"value" : "/Users/aravindh/C++_Coding/Banking_Project/build/googletest/googletest"
 		},
 		{
 			"name" : "gtest_SOURCE_DIR",
@@ -1647,7 +1687,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/aravindh/C++_Coding/Example/googletest/googletest"
+			"value" : "/Users/aravindh/C++_Coding/Banking_Project/googletest/googletest"
 		},
 		{
 			"name" : "gtest_build_samples",
@@ -1711,7 +1751,7 @@
 				}
 			],
 			"type" : "BOOL",
-			"value" : "ON"
+			"value" : "OFF"
 		},
 		{
 			"name" : "gtest_hide_internal_symbols",

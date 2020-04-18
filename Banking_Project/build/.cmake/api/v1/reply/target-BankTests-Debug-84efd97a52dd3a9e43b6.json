@@ -50,12 +50,12 @@
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/Users/aravindh/C++_Coding/Example/googletest/googletest/include"
+					"path" : "/Users/aravindh/C++_Coding/Banking_Project/googletest/googletest/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/Users/aravindh/C++_Coding/Example/googletest/googletest"
+					"path" : "/Users/aravindh/C++_Coding/Banking_Project/googletest/googletest"
 				}
 			],
 			"language" : "CXX",

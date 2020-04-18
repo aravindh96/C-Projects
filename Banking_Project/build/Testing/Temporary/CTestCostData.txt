@@ -1,4 +1,3 @@
-ExampleTests 6 0.17178
 BankTests 0 0
 ---
 BankTests
