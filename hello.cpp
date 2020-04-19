@@ -8,5 +8,5 @@ int main()
 {
     // vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
 
-    printf("hello World");
+    cout<<"hello World";
 }

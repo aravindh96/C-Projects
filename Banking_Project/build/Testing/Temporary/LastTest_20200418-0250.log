@@ -1,10 +1,10 @@
-Start testing: Apr 17 19:50 PDT
+Start testing: Apr 18 15:07 PDT
 ----------------------------------------------------------
 1/1 Testing: BankTests
 1/1 Test: BankTests
 Command: "/Users/aravindh/C++_Coding/Banking_Project/build/test/BankTests"
 Directory: /Users/aravindh/C++_Coding/Banking_Project/build/test
-"BankTests" start time: Apr 17 19:50 PDT
+"BankTests" start time: Apr 18 15:07 PDT
 Output:
 ----------------------------------------------------------
 Running main() from /Users/aravindh/C++_Coding/Banking_Project/googletest/googletest/src/gtest_main.cc
@@ -28,18 +28,18 @@ Expected: true
 [----------] 1 test from ExampleTests (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (2 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 1 test, listed below:
 [  FAILED  ] ExampleTests.DemonstrateGTestMacros
 
  1 FAILED TEST
 <end of output>
-Test time =   0.49 sec
+Test time =   0.28 sec
 ----------------------------------------------------------
 Test Failed.
-"BankTests" end time: Apr 17 19:50 PDT
+"BankTests" end time: Apr 18 15:07 PDT
 "BankTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 17 19:50 PDT
+End testing: Apr 18 15:07 PDT

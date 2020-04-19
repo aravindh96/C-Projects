@@ -24,8 +24,8 @@
 	ProcessorClockFrequency="2300"
 	>
 	<Testing>
-		<StartDateTime>Apr 17 19:50 PDT</StartDateTime>
-		<StartTestTime>1587178242</StartTestTime>
+		<StartDateTime>Apr 18 15:07 PDT</StartDateTime>
+		<StartTestTime>1587247631</StartTestTime>
 		<TestList>
 			<Test>./test/BankTests</Test>
 		</TestList>
@@ -42,7 +42,7 @@
 					<Value>1</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.489573</Value>
+					<Value>0.280971</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -54,12 +54,12 @@
 					<Value>/Users/aravindh/C++_Coding/Banking_Project/build/test/BankTests</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJzFUk1PAjEQvfdXzFGC7GLUyyYeEBZioobw4WVDyNAd1mq33bRd4OfbZZG4JiagB+fS6fT1vbyZmZRKCZVBjkJdtGBtdA7h3JKxIRrcCJW+hv12e9nXqYeF96je/bkcG/1G3IWZ1pkkR7aRWsPDrMqWFW3AOUvujrGAyUHzCipMrXnIbSkcBSzpHGMBI6lXKOt3UhthtMpJeSy5Tll8A3/ljHeYF5JmvmBZApP5M+xj0XgJBpRrZZ1BR6Oq8oTcaMvO6MLedFWsCXlRRNcRDFHI0hB7QVkS6HUEa5SWGECPuxLl5z3eFZ6E0gicKemPujf/pHv7a90EYNh7eIwHJw4GLrqQ29ZpY6/B4LRD2WKn7ZUjNJ1Ub1Vza3/aVjCogqaOtzTuTae1pe4ea4Om0ZrhEqSwvhWwIqm30dm9YMwTHX7M4umMfQAwj0O9====</Value>
+					<Value encoding="base64" compression="gzip">eJzFUk1vwjAMvedX+AhitOzrUmkHBgVN2ibExy4VQiY1Xbc0qZIU+PlLKSA6aRJsh/kSx3l5T8/2uJAylQlkmMpGE1ZaZeDPDGnjo8Z1KuN3v9dqLXoqdjD/EeWnOxcjrT6IWz9RKhFkydRSo7mflNmipPU4Z9HDMeYw3mteQ4mpNPe5KVJLHovax5jDUKgliuqd5DrVSmYkHZZsu8i/gU85wy1muaCpKxgWwXj2CruY1168PmVKGqvR0rCsvCDXyrALurAzXRYrQp7nwW0AA0xFoYm9oSgI1CqAFQpDDKDLbYHicA+3uSOhOACrC/qj7t0/6d7/WjcCGHSfnsP+mYOBRgcy0zxv7BUYrLIomuy8vbKEuh2rjaxv7U/bChqlB42bEx1nadSdTCpLnR3WeHWjFcMViNS4VsCShNoEF/eCMUe0/zENJ1P2BTGbQ78=</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Apr 17 19:50 PDT</EndDateTime>
-		<EndTestTime>1587178242</EndTestTime>
+		<EndDateTime>Apr 18 15:07 PDT</EndDateTime>
+		<EndTestTime>1587247631</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
