@@ -3,7 +3,7 @@
 ## Instructions to Run Project:
 
 Try 
-'''C++
+'''python
 g++ -std=c++11 Banking_System.cpp util.cpp Account.cpp
 '''
 
