@@ -1,10 +1,12 @@
-//Implements the Account Class
+//"Account.cpp" contains function definitions
+// for the Account class.
 
 #include "Account.h"
 #include "util.h"
 #include <iostream>
 
 using namespace std;
+
 int Account::GetAccountNumber(){
     return account_number_;
 }
@@ -17,7 +19,7 @@ string Account::GetAccountName(){
     return account_name_;
 }
 
-void Account::SetAccountName(std::string name){
+void Account::SetAccountName(string name){
     account_name_  = name;
 }
 
