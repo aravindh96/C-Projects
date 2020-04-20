@@ -1,6 +1,6 @@
-#Banking System Project
+# Banking System Project
 
-##Instructions to Run Project:
+## Instructions to Run Project:
 
 Try 
 '''
