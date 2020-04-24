@@ -177,8 +177,8 @@ googletest/googlemock/CMakeFiles/gmock.dir/clean:
 # Target rules for target googletest/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googlemock/CMakeFiles/gmock.dir/all
 googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
+googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aravindh/C++_Coding/Banking_Project/build/CMakeFiles --progress-num=7,8 "Built target gmock_main"
@@ -312,9 +312,9 @@ test/clean: test/CMakeFiles/BankTests.dir/clean
 # Target rules for target test/CMakeFiles/BankTests.dir
 
 # All Build rule for target.
-test/CMakeFiles/BankTests.dir/all: CMakeFiles/Banking_main.dir/all
 test/CMakeFiles/BankTests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
 test/CMakeFiles/BankTests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
+test/CMakeFiles/BankTests.dir/all: CMakeFiles/Banking_main.dir/all
 	$(MAKE) -f test/CMakeFiles/BankTests.dir/build.make test/CMakeFiles/BankTests.dir/depend
 	$(MAKE) -f test/CMakeFiles/BankTests.dir/build.make test/CMakeFiles/BankTests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aravindh/C++_Coding/Banking_Project/build/CMakeFiles --progress-num=1,2 "Built target BankTests"
